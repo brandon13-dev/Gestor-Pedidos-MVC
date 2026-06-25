@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/1. UI/">
+    <Project Path="WebPedidosEF/WebPedidosEF.csproj" Id="5b0f7bd4-cc81-4ea6-9ff3-ca6edf347cfe" />
+  </Folder>
+  <Folder Name="/2. Negocio/">
+    <Project Path="NegocioPedidos/NegocioPedidos.csproj" Id="b0e759a6-f7c7-4af2-bb8d-9a7ee262ef58" />
+  </Folder>
+  <Folder Name="/3. Datos/">
+    <Project Path="DataPedidos/DataPedidos.csproj" Id="b0a4ea78-4c08-4aa6-a2fd-ad49e14d32e1" />
+  </Folder>
+</Solution>
