@@ -99,8 +99,7 @@ namespace NegocioPedidos
             if (!pedido.Fecha.HasValue)
             {
                 errores += "La fecha del pedido es obligatoria.<br />";
-            }
-            if (pedido.Fecha.Value <= DateTime.Now)
+            } else if (pedido.Fecha.Value <= DateTime.Today)
             {
                 errores += "La fecha del pedido debe ser mayor a hoy. <br />";
             }
