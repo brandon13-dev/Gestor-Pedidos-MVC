@@ -15,10 +15,8 @@
     <add key="UnobtrusiveJavaScriptEnabled" value="true" />
   </appSettings>
   <connectionStrings>
-    <add name="generacion38Entities" 
-         connectionString="metadata=res://*/Model.ModelPedidos.csdl|res://*/Model.ModelPedidos.ssdl|res://*/Model.ModelPedidos.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=SERVIDOR;initial catalog=generacion38;user id=USUARIO;password=CONTRASENA;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" 
-         providerName="System.Data.EntityClient" />
-</connectionStrings>
+    <add name="generacion38Entities" connectionString="metadata=res://*/Model.ModelPedidos.csdl|res://*/Model.ModelPedidos.ssdl|res://*/Model.ModelPedidos.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=SERVIDOR;initial catalog=BASEDEDATOS;user id=USUARIO;password=CONTRASENA;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
   <system.web>
     <compilation debug="true" targetFramework="4.8.1" />
     <httpRuntime targetFramework="4.8.1" />
