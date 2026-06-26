@@ -1,5 +1,5 @@
 # Ignorar archivos de configuración con credenciales
-Web.config
+/Web.config
 *.local.config
 
 # Ignorar archivos de Visual Studio
