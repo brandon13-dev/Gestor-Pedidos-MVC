@@ -115,7 +115,7 @@ SolWebPedidosEF/
 
 ### Pantalla de Pedidos Vacía
 
-![Lista Pedidos Vacía](WebPedidosEf/Content/images/Pedidos-Vacia.png)
+![Lista Pedidos Vacía](WebPedidosEF/Content/images/Pedidos-Vacia.png)
 
 ### Pantalla de Crear Pedido
 
