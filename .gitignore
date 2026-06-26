@@ -1,5 +1,11 @@
-# Ignorar archivos de configuración con credenciales
+# Ignorar archivos de configuración con credenciales (solo en la raíz)
 /Web.config
+/web.config
+
+# IGNORAR cualquier Web.config en subcarpetas EXCEPTO Views/web.config
+**/Web.config
+!WebPedidosEF/Views/web.config
+
 *.local.config
 
 # Ignorar archivos de Visual Studio
